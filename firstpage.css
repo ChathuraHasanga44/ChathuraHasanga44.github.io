@@ -1,0 +1,1136 @@
+.name{
+    color:yellow;
+    font-size: 25px;
+}
+
+.post{
+    color:yellow;
+    font-size: 15px;
+    text-align: center;
+}
+
+.mypic{
+    float: left;
+    background-color: #0c192c;
+    width: 25%;
+    padding: 15px;
+    margin-bottom: 5px;
+    text-align: center;
+    height: 750px;
+    position: fixed;
+    margin-top: 10px;
+}
+.pic{
+    border-radius: 50%;
+    width: 100px ;
+    height:100px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-style: dashed;
+}
+
+header{
+    text-align: left;
+    background-color:#0c192c;
+    color: rgb(89, 0, 255);
+    margin-left: -8px;
+}
+
+header h1{
+    margin-top: -6px;
+}
+
+
+#nav{
+    float: right;
+    margin-right: 4px;
+}
+
+.fa:hover{
+    opacity: 0.5;
+}
+
+.fa-linkedin{
+    color: cyan;
+    background: #007bb5;
+}
+
+.fa-facebook{
+    color: cyan;
+    background: #007bb5;
+}
+
+
+.fa-github{
+    color:aqua;
+    background: #007bb5;
+}
+
+.fa{
+    padding: 2px;
+    width: 20px;
+    text-decoration: none;
+    margin: 6px 6px 6px 6px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
+  .rightpart{
+    /*background-color:deeppink;*/
+    padding: 10px;
+    color:yellow;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 100%;
+    float: left;
+    
+  }
+
+  *{
+    box-sizing: border-box;
+  }
+
+.new::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 2px;
+  }
+
+ .menu{
+    list-style-type: none;
+    margin-left: 0px;
+    padding: 2px;
+    margin-bottom: 5px;
+  }
+
+.mistake{
+    float: right;
+    width: 75%;
+    margin-top: 8px;
+}
+
+div.full li{
+    color: yellow;
+    font-size: 20px;
+}
+
+div.full li a{
+    color: yellow;
+    font-size: 20px;
+}
+
+
+
+h3{
+    text-align:left;
+}
+
+.edu{
+    /*border: 1px solid #e68b36;*/
+    width: 100%;
+    height:auto;
+    text-align: left; 
+    font-size: 20px;
+}
+
+.pic1{
+    /*border: 1px solid white;*/
+}
+
+.pic2{
+    /*border: 1px solid red;*/
+}
+
+textarea{
+    resize: none;
+}
+
+.firstbox{
+    width: 100%;
+    position: fixed;
+    float: left;
+    margin-top: -3px;
+}
+
+body{
+    background-color: #0c192c;
+}
+
+#head1{
+    font-size: 50px;
+    text-align:left;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#head2{
+    font-size: 30px;
+    text-align:left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.root{
+    margin-top: 220px;
+    margin-left: 50px;
+}
+
+/*animated bubbles css part*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pic1{
+    min-height: 100vh;
+    background: #0c192c;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bubbles{
+    position: relative;
+    display: flex;
+}
+
+.bubbles span{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: #4fc3dc;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #4fc3dc44,
+    0 0 50px #4fc3dc,
+    0 0 100px #4fc3dc;
+    animation: animate 15s linear infinite;
+    animation-duration: calc(125s / var(--i));
+}
+
+.bubbles span:nth-child(even)
+{
+    background: #ff2d75;
+    box-shadow: 0 0 0 10px #ff2d7544,
+    0 0 50px #ff2d75,
+    0 0 100px #ff2d75;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        transform: translateY(100vh) scale(0);
+    }
+
+    100%
+    {
+        transform: translateY(-10vh) scale(1);
+    }
+}
+
+/*----------------------------------------------*/
+
+/*animated 2 part/about page*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+.container2{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #0c192c;
+    overflow: hidden;
+    animation: animateColor 5s linear infinite;
+}
+
+@keyframes animateColor
+{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+
+}
+
+.container2 span{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+.container2 span::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    background: #00ff0a;
+    box-shadow: 0 0 10px #00ff0a,
+    0 0 20px #00ff0a,
+    0 0 40px #00ff0a,
+    0 0 60px #00ff0a,
+    0 0 80px #00ff0a,
+    0 0 100px #00ff0a;
+    border-radius: 50%;
+    transition: 2s;
+    transform: scale(0);
+}
+
+.container2 span:hover::before
+{
+    transition: 0s;
+    transform: scale(1);
+}
+/*-----------------------under in animated 3 part demonstrate text part about us---------------------------*/
+
+.wrapper {
+    text-align: left;
+    font-size:34px;
+    font-family: "Josefin Sans", sans-serif;
+    background: linear-gradient(to right,deeppink 10%, yellow 50%, #31b3ba 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 1.5s linear infinite;
+    display: inline-block;
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 100px;
+}
+
+@keyframes textclip {
+to {
+    background-position: 200% center;
+}
+}
+
+
+.wrapper p{
+    background: linear-gradient(to right,rgb(178, 140, 160) 10%, rgb(126, 43, 10) 50%, #3cba31 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 1.2s linear infinite;
+    display: inline-block;
+    font-size: 23px;
+}
+
+/*------------------------------education part--------------------------------------------------------------*/
+
+.education p{
+    font-size: 25px;
+    margin-top: 250px;
+    margin-left: 100px;
+    position: absolute;
+    text-align: left;
+    color: yellow;
+    padding: 1px;
+    background-size: auto auto;
+    background-size: 200% auto;
+}
+
+/*----------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------skills page css part-------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.work{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background: #0c192c;
+    position: relative;
+}
+
+.loader{
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.loader span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: rotate(calc(36deg * var(--i)));
+}
+
+.loader span::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: transparent;
+    border: 4px solid #00efff;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px #00efff,
+    -30px -30px 0 #00efff,
+    -30px -30px 20px #00efff,
+    30px 30px 0 #00efff,
+    30px 30px 20px #00efff,
+    30px -30px 0 #00efff,
+    30px -30px 20px #00efff,
+    -30px 30px 0 #00efff,
+    -30px 30px 20px #00efff;
+    animation: animate3 5s linear infinite;
+    animation-delay: calc(-0.25s * var(--i));
+    transform-origin: 200px;
+    transition: 4s;
+}
+
+.loader:hover span::before{
+    box-shadow: 0 0 20px #00efff,
+    -200px -200px 0 #00efff,
+    -200px -200px 20px #00efff,
+    200px 200px 0 #00efff,
+    200px 200px 20px #00efff,
+    200px -200px 0 #00efff,
+    200px -200px 20px #00efff,
+    -200px 200px 0 #00efff,
+    -200px 200px 20px #00efff;
+    transform-origin: 250px;
+}
+
+@keyframes animate3{
+    0%
+    {
+        transform: rotate(0deg);
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+        filter: hue-rotate(360deg);
+    }
+}
+/*------------------------------------------------------------------------------------------------------------*/
+
+/*-------------skills progress bar css part---------*/
+
+.skill{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    position:static;
+    background-color: #0c192c;
+    width: 500px;
+    margin: 60px auto;
+    margin-top: 200px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+h3{
+    margin: 5px;
+}
+
+.skill li{
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.bar span{
+    height: 20px;
+    float: left;
+}
+
+.bar .html{
+    background: linear-gradient(135deg, rgb(43, 0, 236)0%, rgb(224, 236, 0)100%);
+    width: 90%;
+    animation: html 3s;
+}
+
+.bar .css{
+    background: linear-gradient(135deg, rgb(224, 236, 0)0%, rgb(172, 15, 15)100%);
+    width: 70%;
+    animation: css 3s;
+}
+
+.bar .php{
+    background: linear-gradient(135deg, rgba(172, 15, 15)0%, rgb(21, 237, 13)100%);
+    width: 30%;
+    animation: php 3s;
+}
+
+.bar .javaScript{
+    background: linear-gradient(135deg, rgba(21, 237, 13)0%, rgb(228, 31, 182)100%);
+    width: 45%;
+    animation: javaScript 3s;
+}
+
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes php{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 30%;
+    }
+}
+
+@keyframes javaScript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 45%;
+    }
+}
+/*---------------------------------------*/
+
+/*skill page text part---------------------*/
+
+.textskill {
+    text-align: left;
+    font-size:34px;
+    font-family: "Josefin Sans", sans-serif;
+    background: linear-gradient(to right,deeppink 10%, yellow 50%, #31b3ba 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip2 1.5s linear infinite;
+    display: inline-block;
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 100px;
+}
+
+@keyframes textclip2 {
+to {
+    background-position: 200% center;
+}
+}
+
+.textskill p{
+    background: linear-gradient(to right,rgb(178, 140, 160) 10%, rgb(126, 43, 10) 50%, #3cba31 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 1.2s linear infinite;
+    display: inline-block;
+    font-size: 23px;
+}
+/*---------------------------------------*/
+
+/*--------animation5 part ,work page css part---*/
+
+.boxwork{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #0c192c;
+    position: relative;
+}
+
+.boxwork h1{
+    float: left;
+    margin-top: -700px;
+}
+
+.box1{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    margin-top: 550px;
+}
+
+.box1::after{
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-image: conic-gradient(transparent,transparent,transparent,#eb46eb);
+    animation: animate5 2s linear infinite;
+    animation-delay: -2s;
+    animation-direction: alternate;
+}
+
+.box1::before{
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-image: conic-gradient(transparent,transparent,transparent,#e8331f);
+    animation: animate5 4s linear infinite;
+}
+
+@keyframes animate5{
+    0%{
+        transform: rotate(45deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.box1 .one{
+    position: absolute;
+    inset: 5px;
+    border-radius: 16px;
+    background: #0c192c;
+    z-index: 1;
+    display: none;
+}
+
+/*-----------------------------------------*/
+
+.box2{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box2::after{
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-image: conic-gradient(transparent,transparent,transparent,#76da52);
+    animation: animate5 4s linear infinite;
+    animation-delay: -2s;
+    animation-direction: alternate;
+}
+
+.box2::before{
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-image: conic-gradient(transparent,transparent,transparent,#6e068e);
+    animation: animate5b 4s linear infinite;
+}
+
+@keyframes animate5b{
+    0%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.box2 .two{
+    position: absolute;
+    inset: 5px;
+    border-radius: 16px;
+    background: #0c192c;
+    z-index: 1;
+    display: none;
+}
+
+/*-------------------------------------------*/
+
+.box3{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box3::after{
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-image: conic-gradient(transparent,transparent,transparent,#ff7d04);
+    animation: animate5 2.5s linear infinite;
+    animation-delay: -2s;
+    animation-direction: alternate;
+}
+
+.box3::before{
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-image: conic-gradient(transparent,transparent,transparent,#2f5258);
+    animation: animate5c 3s linear infinite;
+}
+
+@keyframes animate5c{
+    0%{
+        transform: rotate(135deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.box3 .three{
+    position: absolute;
+    inset: 5px;
+    border-radius: 16px;
+    background: #0c192c;
+    z-index: 1;
+    display: none;
+}
+
+/*--------------------------------------------*/
+
+.box4{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box4::after{
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-image: conic-gradient(transparent,transparent,transparent,#e6e651);
+    animation: animate5 3s linear infinite;
+    animation-delay: -2s;
+    animation-direction: alternate;
+}
+
+.box4::before{
+    content: '';
+    position:absolute;
+    width: 300px;
+    height: 300px;
+    background-image: conic-gradient(transparent,transparent,transparent,#5957a8);
+    animation: animate5d 4s linear infinite;
+}
+
+@keyframes animate5d{
+    0%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.box4 .four{
+    position: absolute;
+    inset: 5px;
+    border-radius: 16px;
+    background: #b2bf53;
+    z-index: 1;
+    display: none;
+}
+/*--------------------------------------------------------------*/
+
+.project{
+    float:left;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 5px;
+    margin-bottom: 80px;
+}
+
+
+.project .box{
+    margin-left:  2px;
+    margin-right:  8px;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    border: 1px solid #dae636;
+    width: 150px;
+    height:200px;
+    float:left;
+    font-size:20px;
+    position:relative;
+}
+
+.project .box:hover{
+    background: linear-gradient(to right,rgb(111, 219, 84) 30%, rgb(190, 190, 82) 70%, #7abbbf 100%);
+    opacity: 0.9;
+    text-decoration: none;
+    border: 0;
+    color: deeppink;
+}
+
+.boxpics{
+    width: 150px;
+    height:170px;
+}
+
+/*--------------------------------------------------------------*/
+
+.textwork h1{
+    text-align: left;
+    font-size:80px;
+    font-family: "Josefin Sans", sans-serif;
+    background: linear-gradient(to right,deeppink 10%, yellow 50%, #31b3ba 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip3 1.5s linear infinite;
+    display: inline-block;
+    position: absolute;
+    margin-top: -480px;
+    margin-left: 100px;
+}
+
+@keyframes textclip3 {
+to {
+    background-position: 200% center;
+}
+}
+
+/*------------work css part finished----------------------------*/
+
+/*------------payment page css part starts here-----------------*/
+
+
+.paymentfull{
+    min-height: 100hv;
+    background-color: #0c192c;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.paymentmain{
+    text-align: left;
+    font-size:34px;
+    font-family: "Josefin Sans", sans-serif;
+    background: linear-gradient(to right,deeppink 10%, yellow 50%, #31b3ba 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip2 1.5s linear infinite;
+    display: inline-block;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.paymentmain p{
+    font-size: 20px;
+}
+
+@keyframes textclip2 {
+to {
+    background-position: 200% center;
+}
+}
+
+.amountmain{
+    color: rgb(226, 236, 20);
+    background: #0c192c;
+    width: 600px;
+    height: 300px;
+    justify-content: center;
+    margin-top: 300px;
+    position: static;
+    text-align: center;
+    display: flex;
+    text-align: center;
+    margin: 20px auto;
+    margin-top: 100px;
+}
+
+.amount{
+    margin: 100px auto;
+    text-align: center;
+    display: flex;
+    width: 800px;
+    height: 500px;
+    justify-content: center;
+    display: block;
+}
+
+.button1{
+    width: 120px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 2px solid #31b3ba;
+    margin-top: 15px;
+    margin-left: -5px;
+    background-color: #b1d465;
+}
+
+.button1:hover {
+    background-color: deeppink;
+    color: yellow;
+}
+
+.button1:hover a{
+    color: yellow;
+}
+
+.input1{
+    width:350px;
+    height: 40px;
+    background-color: #142948;
+    border: 1px solid #777;
+    color: white;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+::placeholder{
+    font-size: 15px;
+}
+
+/*-------payment css part finished-----------------------------------*/
+
+/*-------contact css part start--------------------------------------*/
+
+.textcontact {
+    text-align: left;
+    font-size:34px;
+    font-family: "Josefin Sans", sans-serif;
+    background: linear-gradient(to right,deeppink 10%, yellow 50%, #31b3ba 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textcliplast 1.5s linear infinite;
+    display: inline-block;
+    position: relative;
+    margin-top: -60px;
+    margin-left: 100px;
+    float: left;
+}
+
+@keyframes textcliplast {
+to {
+    background-position: 200% center;
+}
+}
+/*-----------------------------------------*/
+.contactmain{
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact-box{
+    margin-top: -40px;
+    padding: 0;
+    width: 500px;
+    height: auto;
+    background-color: #0c192c;
+    top: 50%;
+    left: 50%;
+}
+
+.contactform{
+    margin: 35px;
+}
+
+.input-field{
+    width:400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    outline: none;
+    background-color: #142948;
+    position: relative;
+    color: white;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.textarea-field{
+    height: 150px;
+    padding-top: 10px;
+}
+.btn{
+    border-radius: 5px;
+    margin-top: 18px;
+    padding: 10px;
+    border: 2px solid #31b3ba;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #b1d465;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: deeppink;
+    color: yellow;
+}
+/*----------------contact css part ends here---------------------*/
+
+/*--------------------footer css part----------------------------*/
+
+.footer{
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    background-color:#0c192c;
+    color: rgb(234, 255, 0);
+    position: relative;
+    width: 75%;
+    float: right;
+    margin-right: -15px;
+    margin-top: -15px;
+}
+
+.end{
+    min-height: 50vh;
+    position: relative;
+    background-color:#0c192c;
+}
+
+.para{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.footername{
+    color: yellow;
+}
+
+.footername:hover{
+    color: #e8331f;
+}
+/*---------------------end footer css part-----------------------*/
